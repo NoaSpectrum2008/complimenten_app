@@ -1,0 +1,94 @@
+/* Basisstijl voor de pagina */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+/* Container voor de inhoud */
+.container {
+    background: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+/* Titel stijl */
+h1 {
+    color: #ff6f61;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Compliment paragraaf */
+#compliment {
+    font-size: 1.2rem;
+    color: #444;
+    margin-bottom: 20px;
+    font-style: italic;
+    transition: transform 0.3s ease;
+}
+
+/* Knopstijl */
+button {
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    padding: 12px 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+    display: inline-block;
+}
+
+/* Hover effect voor de knop */
+button:hover {
+    background-color: #e45e53;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+}
+
+/* Klik animatie voor de knop */
+button:active {
+    transform: scale(0.98);
+}
+
+/* Sterren-emoji styling rondom compliment */
+#compliment:before, #compliment:after {
+    content: "⭐";
+    font-size: 1.5rem;
+    margin: 0 10px;
+}
+
+/* Extra schaduw effect voor de container */
+.container {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Kleine responsiviteit voor mobiele schermen */
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+    #compliment {
+        font-size: 1rem;
+    }
+    button {
+        padding: 10px 25px;
+        font-size: 0.9rem;
+    }
+}

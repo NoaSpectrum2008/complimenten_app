@@ -1,13 +1,18 @@
 {
     "complimenten":[
         "Je bent een goed persoon",
-        "Je bent chill",
-        "Je bent flink",
+        "W jij",
+        "Genius",
         "Stay hard!",
-        "Goe bezig :D",
-        "Doe zo voort",
-        "Legend"
+        "Goe bezig!",
+        "Doe zo voort!",
+        "Legend!"
 
+    ],
+    "fruit":[
+        "Appel",
+        "Peer",
+        "Banaan"
     ]
 
 }
